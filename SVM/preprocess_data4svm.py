@@ -2,16 +2,16 @@ import pandas as pd
 import re
 import spacy
 
-# Load the English tokenizer, tagger, parser, and NER
+# Loading the English tokenizer, tagger, parser, and NER
 nlp = spacy.load("en_core_web_sm")
 
-# Read the data file without column headings
+# Reading the data file without column headings
 data = pd.read_csv("all-data.csv", header=None, encoding='latin-1')
 
-# Assign column names
+# Assigning column names
 data.columns = ["Sentiment", "News Headline"]
 
-# Preprocess the text data
+# Preprocessing the text data
 def preprocess_text(text):
     # Convert to lowercase
     text = text.lower()
@@ -22,7 +22,7 @@ def preprocess_text(text):
     text = " ".join([token.lemma_ for token in doc])
     return text
 
-# Apply preprocessing to the "News Headline" column
+# Applying preprocessing to the "News Headline" column
 data["News Headline"] = data["News Headline"].apply(preprocess_text)
 
 # Print the preprocessed data
