@@ -1,11 +1,11 @@
 import torch
 from transformers import XLNetTokenizer, XLNetForSequenceClassification
 
-# Load the tokenizer and model
+# Loading the tokenizer and model
 tokenizer = XLNetTokenizer.from_pretrained('xlnet-base-cased')
 model = XLNetForSequenceClassification.from_pretrained('xlnet-base-cased', num_labels=3)
 
-# Load the trained model weights on the CPU
+# Loading the trained model weights on the CPU
 model.load_state_dict(torch.load('saved_XLNet_model_CUDA.pt', map_location=torch.device('cpu')))
 model.eval()
 
