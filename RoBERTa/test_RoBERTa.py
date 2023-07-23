@@ -1,11 +1,11 @@
 import torch
 from transformers import RobertaTokenizer, RobertaForSequenceClassification
 
-# Load the tokenizer and model
+# Loading the tokenizer and model
 tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
 model = RobertaForSequenceClassification.from_pretrained('roberta-base', num_labels=3)
 
-# Load the trained model weights on the CPU
+# Loading the trained model weights on the CPU
 model.load_state_dict(torch.load('saved_RoBERTa_model_CUDA.pt', map_location=torch.device('cpu')), strict=False)
 model.eval()
 
