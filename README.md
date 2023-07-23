@@ -12,7 +12,7 @@ This project focuses on sentiment analysis of financial news headlines using adv
 After training and evaluating various models, RoBERTa stands out as the top performer, achieving an impressive F1 score of 0.91. Other models explored include SVM, BERT and XLNet.
 
 ## Dataset
-The dataset used for this project comprises financial news headlines annotated with sentiment classes (positive, negative, neutral). Rigorous preprocessing was employed to ensure the data's quality and suitability for training and evaluation. It's worth noting that the dataset was sourced from a licensed dataset on Kaggle, ensuring adherence to copyright and licensing terms.
+The dataset used for this project consists of financial news headlines annotated with sentiment classes (positive, negative, neutral). Rigorous preprocessing was employed to ensure the data's quality and suitability for training and evaluation. The dataset was sourced from Kaggle and is part of the licensed dataset "Sentiment Analysis for Financial News" by Ankur Sinha (ankurzing/sentiment-analysis-for-financial-news), ensuring adherence to copyright and licensing terms.
 
 ## Repository Structure
 - `SVM/`: Support Vector Machines model code and files.
