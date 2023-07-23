@@ -1,11 +1,11 @@
 import torch
 from transformers import BertTokenizer, BertForSequenceClassification
 
-# Load the tokenizer and model
+# Loading the tokenizer and model
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=3)
 
-# Load the trained model weights
+# Loading the trained model weights
 model.load_state_dict(torch.load('saved_BERT_model.pt'))
 model.eval()
 
