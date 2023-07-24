@@ -1,8 +1,8 @@
 # Sentiment-Financial-News-Analysis
 Financial News Sentiment Analysis using NLP. Achieved 0.9 F1 with RoBERTa. Explore models: SVM, BERT, XLNet, RoBERTa.
-![Sentiment Analysis](https://github.com/joshichakresh/Sentiment-Financial-News-Analysis/blob/main/Screenshot%20(289)3.png)
-![F1-Score](https://github.com/joshichakresh/Sentiment-Financial-News-Analysis/blob/main/Screenshot%20(291)2.png)
-![Testing](https://github.com/joshichakresh/Sentiment-Financial-News-Analysis/blob/main/Screenshot%202023-07-22%20133555.png)
+![Sentiment Analysis](https://github.com/joshichakresh/Sentiment-Financial-News-Analysis/blob/main/RoBERTa/Confusion%20Matrix%20RoBERTa.png)
+![F1-Score](https://github.com/joshichakresh/Sentiment-Financial-News-Analysis/blob/main/RoBERTa/Performance%20Metrics%20RoBERTa.png)
+![Testing](https://github.com/joshichakresh/Sentiment-Financial-News-Analysis/blob/main/RoBERTa/Testing_of_RoBERTa.png)
 
 
 ## Overview
