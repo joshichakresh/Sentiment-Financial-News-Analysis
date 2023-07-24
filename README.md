@@ -1,7 +1,7 @@
 # Sentiment-Financial-News-Analysis
 Financial News Sentiment Analysis using NLP. Achieved 0.9 F1 with RoBERTa. Explore models: SVM, BERT, XLNet, RoBERTa.
 ![Sentiment Analysis](https://github.com/joshichakresh/Sentiment-Financial-News-Analysis/blob/main/RoBERTa/Confusion%20Matrix%20RoBERTa.png)
-![F1-Score](https://github.com/joshichakresh/Sentiment-Financial-News-Analysis/blob/main/RoBERTa/Performance%20Metrics%20RoBERTa.png)
+![F1-Score](https://github.com/joshichakresh/Sentiment-Financial-News-Analysis/blob/main/RoBERTa/RoBERTa_performance_metrics.png)
 ![Testing](https://github.com/joshichakresh/Sentiment-Financial-News-Analysis/blob/main/RoBERTa/Testing_of_RoBERTa.png)
 
 
@@ -10,6 +10,7 @@ This project focuses on sentiment analysis of financial news headlines using adv
 
 ## Model Performance
 After training and evaluating various models, RoBERTa stands out as the top performer, achieving an impressive F1 score of 0.91. Other models explored include SVM, BERT and XLNet.
+![Model Comparison](https://github.com/joshichakresh/Sentiment-Financial-News-Analysis/blob/main/performance_metrics_comparison.png)
 
 ## Dataset
 The dataset used for this project consists of financial news headlines annotated with sentiment classes (positive, negative, neutral). Rigorous preprocessing was employed to ensure the data's quality and suitability for training and evaluation. The dataset was sourced from Kaggle and is part of the licensed dataset "Sentiment Analysis for Financial News" by Ankur Sinha (ankurzing/sentiment-analysis-for-financial-news), ensuring adherence to copyright and licensing terms.
